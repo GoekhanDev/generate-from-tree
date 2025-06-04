@@ -3,14 +3,15 @@
   "displayName": "Generate From Tree",
   "description": "Right-click a .txt file containing a folder tree and generate its structure.",
   "version": "1.0.0",
+  "publisher": "goekhandev",
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": ["Other"],
+  "main": "extension.js",
   "activationEvents": [
     "onCommand:extension.buildTreeFromFileUri"
   ],
-  "main": "extension.js",
   "contributes": {
     "commands": [
       {
@@ -28,6 +29,14 @@
       ]
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoekhanDev/generate-from-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoekhanDev/generate-from-tree/issues"
+  },
+  "homepage": "https://github.com/GoekhanDev/generate-from-tree#readme",
   "devDependencies": {
     "@types/vscode": "^1.75.0"
   }
