@@ -2,7 +2,8 @@
   "name": "generate-from-tree",
   "displayName": "Generate From Tree",
   "description": "Right-click a .txt file containing a folder tree and generate its structure.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "icon": "icon.png",
   "publisher": "goekhandev",
   "engines": {
     "vscode": "^1.75.0"
