@@ -2,7 +2,7 @@
 
 Create full folder & file structures in seconds — right from a simple text-based tree!
 
-![Tree Builder Banner]() <!-- Replace with your actual image -->
+![Banner](https://raw.githubusercontent.com/GoekhanDev/generate-from-tree/main/assets/banner.png)
 
 ## ✨ Features
 
@@ -27,7 +27,7 @@ Create full folder & file structures in seconds — right from a simple text-bas
 
 3. Watch your structure appear!
 
-![Demo]() <!-- Replace with your actual GIF -->
+![Demo of the extension](https://raw.githubusercontent.com/GoekhanDev/generate-from-tree/main/assets/demo.gif)
 
 ## 📦 Example Use Case
 
