@@ -1,0 +1,34 @@
+{
+  "name": "generate-from-tree",
+  "displayName": "Generate From Tree",
+  "description": "Right-click a .txt file containing a folder tree and generate its structure.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:extension.buildTreeFromFileUri"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.buildTreeFromFileUri",
+        "title": "📁 Build Folder Structure"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.buildTreeFromFileUri",
+          "when": "resourceExtname == .txt",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0"
+  }
+}
