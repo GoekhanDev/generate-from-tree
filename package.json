@@ -2,7 +2,7 @@
   "name": "generate-from-tree",
   "displayName": "Generate From Tree",
   "description": "Right-click a .txt file containing a folder tree and generate its structure.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "icon.png",
   "publisher": "goekhandev",
   "engines": {
